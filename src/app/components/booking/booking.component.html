@@ -1,0 +1,25 @@
+
+
+
+<div style="margin: auto; width: 250px; " >
+    <h1 >Bookings</h1>
+    <br>
+    <label>First Name:</label>
+    <br>
+    <input type="text" name="firstname" placeholder="enter your first name" [(ngModel)]="Fname" >
+    <br>
+    <label>Surname:</label>
+    <br>
+    <input type="text" name="Surname" placeholder="enter your Surname" [(ngModel)]="Surname" >
+    <br>
+    <label >Age:</label>
+    <br>
+    <input type="number" name="age" placeholder="enter your Age" [(ngModel)]="age">
+    <br>
+    <label>Date</label>
+    <br>
+    <input type="date" name="date" [(ngModel)]="date">
+    <br>
+    <button type="submit" name="btnSubmit" (click)="onSubmit()">Submit</button>
+
+</div>
